@@ -1,7 +1,7 @@
 # Basic-Portfolio
 9-18
 
-# header Techologies used
+# Techologies used
 
 1. css
 

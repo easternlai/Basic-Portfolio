@@ -1,0 +1,113 @@
+.wrapper {
+
+    background-color: grey;
+    height: 100%;
+
+
+}
+
+
+
+.center {
+    margin: auto;
+    width: 50%;
+
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.0em;
+    background-color: yellow;
+}
+
+img {
+    widows: 200px;
+    height: 200px;
+    float: left;
+    padding: 5px 15px 20px 15px;
+}
+
+h1{
+    float: left;
+}
+
+p {
+    line-height: 1.5em;
+    padding: 0 40px;
+
+}
+
+ol {
+    padding: 0 60px;
+}
+
+p, ol {
+    text-align: left;
+}
+
+a {
+    padding: 5px 20px;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:focus{
+    color: purple;
+} 
+
+body, html {
+    height: 100%;
+}
+
+.about-content {
+    background-color: red;
+    margin: 40px 20px;
+    padding: 15px 0;
+}
+
+.header {
+    background-color: blanchedalmond;
+    height: 40px;
+}
+
+.profile-name {
+    background-color: yellowgreen;
+    height: 100%;
+    padding: 0 5px;
+    vertical-align: middle;
+    
+}
+
+.about {
+    float: right;
+}
+
+.portfolio {
+    float: right;
+}
+
+.contact {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .footer {
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    border-top:7px;
+    border-style:  solid;
+    border-color: brown;
+    height: 45px;
+}
